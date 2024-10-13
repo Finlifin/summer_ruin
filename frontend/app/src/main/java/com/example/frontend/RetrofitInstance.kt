@@ -25,7 +25,7 @@ object RetrofitInstance {
 object ImageRetrofitInstance {
 
 //    private const val IMAGE_URL = "http://10.70.143.168:8000"
-    private const val IMAGE_URL = "10.33.13.3:8000"
+    private const val IMAGE_URL = "http://10.33.13.3:8000"
 
     private val retrofit: Retrofit by lazy {
         Retrofit.Builder()
